@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+@import '../../variables.scss';
+@include mat-core();
+
+mat-tab-group {
+  width: 790px;
+  margin: auto;
+  border: 1px solid $orange;
+  color: black;
+  
+  .tabContent {
+    padding: 8px 10px 10px 10px;
+  }
+}
